@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+<target name="compile" description="compile the source">
+<javac
+	srcdir="C:\Users\Apeksha\eclipse-workspace\AntActivity\src"
+     destdir="C:\Users\Apeksha\eclipse-workspace\AntActivity\bin"
+     debug="on" includeantruntime="true">
+    </javac>
+</target>
+<target name="execute" description="execute the source">
+<java
+classname="AntActivity">
+<classpath>
+<pathelement location="C:\Users\Apeksha\eclipse-workspace\AntActivity\bin"/>
+</classpath>
+</java>
+</target>
+</project>
